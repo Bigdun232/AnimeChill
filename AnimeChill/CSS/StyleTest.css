@@ -1,0 +1,55 @@
+/* Global nastroyki */
+
+
+* {margin: 0; padding: 0;}
+body {font-family: roboto, sans-serif;
+    
+    overflow-x: hidden;
+}
+
+/* HEADER */
+#main-nav {
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    text-align: right;
+}
+
+.logoAnime { 
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+    .logo-img{height: 60px ;}
+    
+#main-menu{
+    list-style: none;
+}
+
+.main-menu-item {
+    height: 17px;
+    display: inline-block;
+    
+}
+.main-menu-item a {
+    text-decoration: none;
+    color: azure;
+    background-color: rgb(157, 0, 0);
+    line-height: 1.5em;
+    margin: 7px;
+    padding: 10px;
+    border-radius: 4%;
+}
+.main-menu-item a:hover,
+.main-menu-item:focus {
+    background-color: darkred;
+    text-shadow: 0 2px 3px rgb(0, 247, 255);   
+    margin-left: 0.5em;
+    outline: none;
+    position:relative;
+}
+
+
+
+
